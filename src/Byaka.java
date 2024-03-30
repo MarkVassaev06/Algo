@@ -1,6 +1,4 @@
-import javax.swing.*;
 import java.util.ArrayList;
-import java.util.List;
 
 class X extends Thread {
     @Override
@@ -20,7 +18,7 @@ class X extends Thread {
     }
 }
 
-public class jhgfdsa {
+public class Byaka {
     public static void main(String[] args) {
         X x = new X();
         while (true) {

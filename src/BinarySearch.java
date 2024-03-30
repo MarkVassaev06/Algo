@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
 
-class upgradeArray {
+class UpgradeArray {
     private Float[] array;
 
-    upgradeArray() {
+    UpgradeArray() {
         this.array = new Float[0];
     }
 
@@ -43,8 +43,8 @@ class Array {
             return array;
         } else {
             Float first = array[0];
-            upgradeArray min = new upgradeArray();
-            upgradeArray max = new upgradeArray();
+            UpgradeArray min = new UpgradeArray();
+            UpgradeArray max = new UpgradeArray();
             Float[] kogoto1 = min.getArray();
             Float[] kogoto2 = max.getArray();
             for (int i = 1; i < array.length; i++) {
