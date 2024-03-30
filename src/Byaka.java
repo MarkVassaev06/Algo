@@ -23,6 +23,7 @@ public class Byaka {
         X x = new X();
         while (true) {
             x.run();
+            ////
         }
     }
 }
